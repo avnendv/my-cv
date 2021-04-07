@@ -1,6 +1,51 @@
 body{
     font-family: 'Roboto', sans-serif;
+    margin: auto;
 }
-header h1{
+
+.bg-ct{
+    background-color: rgb(255, 255, 255)!important;
+}
+.introduce{
+    background-color: rgb(83, 160, 248);
+    padding: 2rem 0;
+}
+.introduce img{
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+}
+.text-vertical-center {
+    display: table-cell;
+    vertical-align: middle;
     text-align: center;
+}
+
+.text-vertical-center h1 {
+    text-transform: uppercase;
+}
+
+.text-vertical-center h6 {
+    text-transform: capitalize;
+}
+.text-vertical-center .bi-mouse{
+    padding: 20px 0px;
+    width: 50px;
+    height: 5rem;
+    color: white;
+    opacity: 0.5;
+}
+.text-vertical-center .bi-mouse:hover{
+    cursor: pointer;
+}
+.arrow-top{
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    z-index: 9999999;
+    border: 0px;
+    color: black;
+}
+.arrow-top svg:hover{
+    cursor: pointer;
 }
