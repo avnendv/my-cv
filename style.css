@@ -9,6 +9,7 @@ body{
 .introduce{
     background-color: rgb(83, 160, 248);
     padding: 2rem 0;
+    margin-bottom: 4rem;
 }
 .introduce img{
     border-radius: 100%;

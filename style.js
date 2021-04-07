@@ -1,12 +1,11 @@
 $(function () {
     $(window).scroll(function(){
-        if ($('html,body').scrollTop() > $(window).height()) {
+        if ($('html,body').scrollTop() > $(window).height()/4) {
             $('.arrow-top').removeClass('d-none');
-            console.log('true');
         } else {
             $('.arrow-top').addClass('d-none');
-            console.log('false');
         }
+        console.log($('html,body').scrollTop() + "-" + $(window).height())
     })
 
     $('.text-vertical-center .bi-mouse').click(function(){
