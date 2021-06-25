@@ -3,7 +3,32 @@ body{
     margin: auto;
     /* text-shadow: 0px 0.5px 0.2px rgb(97, 97, 97); */
 }
-
+.preloading {
+    overflow: hidden;
+}
+.preload-container {
+    width: 100%;
+    height: 100%;
+    background: rgb(22, 78, 143);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 99999999999;
+    display: table;
+    padding-right: 17px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.lod{
+    display: table-cell!important;
+    vertical-align: middle;
+}
+.lod span{
+    font-size: 1.5rem;
+    color: #ffffff;
+}
 .bg-ct{
     background-color: rgb(255, 255, 255)!important;
 }

@@ -1,8 +1,13 @@
+
 $(function () {
     // $('.nav-item').click(function(){
     //     $('.bg-ct').removeClass('fixed-top');
     //     $(this).data('clicked',true);
     // })
+    $(window).load(function() {
+        $('body').removeClass('preloading');
+        $('#preload').delay(0).fadeOut('fast');
+    });
     $(window).scroll(function(){
         // if ($('.nav-item').data('clicked') === true) {
         //     $('.bg-ct').removeClass('fixed-top');
