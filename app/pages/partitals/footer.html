@@ -1,14 +1,12 @@
 <!-- ======= Footer ======= -->
 <footer id="footer">
   <div class="container">
-    <h3>Brandon Johnson</h3>
+    <h3>Nguyen Duc Viet</h3>
     <p>Et aut eum quis fuga eos sunt ipsa nihil. Labore corporis magni eligendi fuga maxime saepe commodi placeat.</p>
     <div class="social-links">
-      <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-      <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-      <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-      <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-      <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+      @@for (var i = 0; i < socials.length; i++) { <a href=`+socials[i].link+`><i
+          class="bx `+socials[i].icon+`"></i></a>
+        }
     </div>
     <div class="copyright">
       &copy; Copyright <strong><span>AVNENDV</span></strong>. All Rights Reserved
@@ -43,7 +41,9 @@
   integrity="sha512-J0i98QZsJc12MkNEyDbinrKKoe7Jiw0rtryAXBesZrVwRkaqgP9QNCPyo5sMZ2jfiJQb+9RIE4I3xNl8fFqQIA=="
   crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="https://unpkg.com/typed.js@2.0.132/dist/typed.umd.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.min.js" integrity="sha512-fHXRw0CXruAoINU11+hgqYvY/PcsOWzmj0QmcSOtjlJcqITbPyypc8cYpidjPurWpCnlB8VKfRwx6PIpASCUkQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.min.js"
+  integrity="sha512-fHXRw0CXruAoINU11+hgqYvY/PcsOWzmj0QmcSOtjlJcqITbPyypc8cYpidjPurWpCnlB8VKfRwx6PIpASCUkQ=="
+  crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <!-- Template Main JS File -->
 <script src="@@webRoot/assets/js/pages/index.min.js"></script>
 

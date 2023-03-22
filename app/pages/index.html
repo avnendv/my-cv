@@ -1,38 +1,92 @@
-@@include('./partitals/head.html')
+@@include('./partitals/head.html', {
+showHero: true,
+showAbout: true,
+showSkills: true,
+showResume: true,
+showPortfolio: false,
+showServices: false,
+showTestimonials: false,
+showContact: true,
+})
 
 <!-- ======= Hero Section ======= -->
-@@include('./partitals/hero.html')
+@@include('./partitals/hero.html', {
+"isShow": true,
+"socials": [
+{
+"icon": "bxl-facebook",
+"link": "https://fb.com/vietnguyen2x"
+},
+{
+"icon": "bxl-linkedin",
+"link": "https://www.linkedin.com/in/avnendv"
+},
+{
+"icon": "bxl-github",
+"link": "https://github.com/avnendv"
+},
+]
+})
 <!-- End Hero -->
 
 <main id="main">
   <!-- ======= About Section ======= -->
-  @@include('./partitals/about.html')
+  @@include('./partitals/about.html', {
+  "isShow": true
+  })
   <!-- End About Section -->
 
   <!-- ======= Skills Section ======= -->
-  @@include('./partitals/skills.html')
+  @@include('./partitals/skills.html', {
+  "isShow": true
+  })
   <!-- End Skills Section -->
 
   <!-- ======= Resume Section ======= -->
-  @@include('./partitals/resume.html')
+  @@include('./partitals/resume.html', {
+  "isShow": true
+  })
   <!-- End Resume Section -->
 
   <!-- ======= Portfolio Section ======= -->
-  @@include('./partitals/portfolio.html')
+  @@include('./partitals/portfolio.html', {
+  "isShow": false
+  })
   <!-- End Portfolio Section -->
 
   <!-- ======= Services Section ======= -->
-  @@include('./partitals/services.html')
+  @@include('./partitals/services.html', {
+  "isShow": false
+  })
   <!-- End Services Section -->
 
   <!-- ======= Testimonials Section ======= -->
-  @@include('./partitals/testimonials.html')
+  @@include('./partitals/testimonials.html', {
+  "isShow": false
+  })
   <!-- End Testimonials Section -->
 
   <!-- ======= Contact Section ======= -->
-  @@include('./partitals/contact.html')
+  @@include('./partitals/contact.html', {
+  "isShow": true
+  })
   <!-- End Contact Section -->
 
 </main><!-- End #main -->
 
-@@include('./partitals/footer.html')
+@@include('./partitals/footer.html', {
+"socials": [
+{
+"icon": "bxl-facebook",
+"link": "https://fb.com/vietnguyen2x"
+},
+{
+"icon": "bxl-linkedin",
+"link": "https://www.linkedin.com/in/avnendv"
+},
+{
+"icon": "bxl-github",
+"link": "https://github.com/avnendv"
+},
+]
+})

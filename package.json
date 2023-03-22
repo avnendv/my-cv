@@ -31,17 +31,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/anvendv/my-cv.git"
+    "url": "git+https://github.com/avnendv/my-cv.git"
   },
   "keywords": [
     "vietnguyen2x",
-    "a2xvodoi",
-    "a2xvodoi.github.io"
+    "avnendv",
+    "avnendv.github.io"
   ],
   "author": "AVNENDV",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/anvendv/my-cv/issues"
+    "url": "https://github.com/avnendv/my-cv/issues"
   },
-  "homepage": "https://github.com/anvendv/my-cv#readme"
+  "homepage": "https://github.com/avnendv/my-cv#readme"
 }
