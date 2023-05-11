@@ -1,92 +1,46 @@
-@@include('./partitals/head.html', {
-showHero: true,
-showAbout: true,
-showSkills: true,
-showResume: true,
-showPortfolio: false,
-showServices: false,
-showTestimonials: false,
-showContact: true,
-})
+@@include('./partitals/head.html', { showHero: true, showAbout: true,
+showSkills: true, showResume: true, showPortfolio: false, showServices: false,
+showTestimonials: false, showContact: true, })
 
 <!-- ======= Hero Section ======= -->
-@@include('./partitals/hero.html', {
-"isShow": true,
-"socials": [
-{
-"icon": "bxl-facebook",
-"link": "https://fb.com/vietnguyen2x"
-},
-{
-"icon": "bxl-linkedin",
-"link": "https://www.linkedin.com/in/avnendv"
-},
-{
-"icon": "bxl-github",
-"link": "https://github.com/avnendv"
-},
-]
-})
+@@include('./partitals/hero.html', { "isShow": true, "socials": [ { "icon":
+"bxl-facebook", "link": "https://fb.com/avnendv" }, { "icon": "bxl-linkedin",
+"link": "https://www.linkedin.com/in/avnendv" }, { "icon": "bxl-github", "link":
+"https://github.com/avnendv" }, ] })
 <!-- End Hero -->
 
 <main id="main">
   <!-- ======= About Section ======= -->
-  @@include('./partitals/about.html', {
-  "isShow": true
-  })
+  @@include('./partitals/about.html', { "isShow": true })
   <!-- End About Section -->
 
   <!-- ======= Skills Section ======= -->
-  @@include('./partitals/skills.html', {
-  "isShow": true
-  })
+  @@include('./partitals/skills.html', { "isShow": true })
   <!-- End Skills Section -->
 
   <!-- ======= Resume Section ======= -->
-  @@include('./partitals/resume.html', {
-  "isShow": true
-  })
+  @@include('./partitals/resume.html', { "isShow": true })
   <!-- End Resume Section -->
 
   <!-- ======= Portfolio Section ======= -->
-  @@include('./partitals/portfolio.html', {
-  "isShow": false
-  })
+  @@include('./partitals/portfolio.html', { "isShow": false })
   <!-- End Portfolio Section -->
 
   <!-- ======= Services Section ======= -->
-  @@include('./partitals/services.html', {
-  "isShow": false
-  })
+  @@include('./partitals/services.html', { "isShow": false })
   <!-- End Services Section -->
 
   <!-- ======= Testimonials Section ======= -->
-  @@include('./partitals/testimonials.html', {
-  "isShow": false
-  })
+  @@include('./partitals/testimonials.html', { "isShow": false })
   <!-- End Testimonials Section -->
 
   <!-- ======= Contact Section ======= -->
-  @@include('./partitals/contact.html', {
-  "isShow": false
-  })
+  @@include('./partitals/contact.html', { "isShow": false })
   <!-- End Contact Section -->
+</main>
+<!-- End #main -->
 
-</main><!-- End #main -->
-
-@@include('./partitals/footer.html', {
-"socials": [
-{
-"icon": "bxl-facebook",
-"link": "https://fb.com/vietnguyen2x"
-},
-{
-"icon": "bxl-linkedin",
-"link": "https://www.linkedin.com/in/avnendv"
-},
-{
-"icon": "bxl-github",
-"link": "https://github.com/avnendv"
-},
-]
-})
+@@include('./partitals/footer.html', { "socials": [ { "icon": "bxl-facebook",
+"link": "https://fb.com/vietnguyen2x" }, { "icon": "bxl-linkedin", "link":
+"https://www.linkedin.com/in/avnendv" }, { "icon": "bxl-github", "link":
+"https://github.com/avnendv" }, ] })
